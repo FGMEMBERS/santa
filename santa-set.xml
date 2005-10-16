@@ -18,10 +18,6 @@ October 23 2001 John Check, fgpanels@rockfish.net
  
   <flight-model>ufo</flight-model>
 
-  <startup>
-   <splash-texture>Aircraft/santa/splash.rgb</splash-texture>
-  </startup>
-
   <sound>
    <audible>true</audible>
    <path>Aircraft/santa/raindeer-sound.xml</path>
