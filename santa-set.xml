@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+Cessna 172 simulation config. This files ties together all the components
+used by FGFS to represent the C172. Components include the flight data 
+model, instrument panel, and external 3D model.
+3D models can be downloaded from http://home.t-online.de/home/Wolfram.Kuss/
+
+October 23 2001 John Check, fgpanels@rockfish.net
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>Santa Claus (3d cockpit)</description>
+ 
+  <flight-model>ufo</flight-model>
+
+  <startup>
+   <splash-texture>Aircraft/santa/splash.rgb</splash-texture>
+  </startup>
+
+  <sound>
+   <audible>true</audible>
+   <path>Aircraft/santa/raindeer-sound.xml</path>
+  </sound>
+
+  <submodels>
+   <serviceable type="bool">1</serviceable>
+   <path>Aircraft/santa/raindeer-submodels.xml</path>
+  </submodels>
+
+  <panel>
+   <visibility>false</visibility>
+  </panel>
+
+  <model>
+   <path>Aircraft/santa/Models/santa.xml</path>
+  </model>
+
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+
+  <chase-distance-m type="double" archive="y">-25.0</chase-distance-m>
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <y-offset-m archive="y">2.07</y-offset-m>
+   </config>
+  </view>
+ </sim>
+
+ <ai>
+  <submodels>
+   <flare-release>true</flare-release>
+  </submodels>
+ </ai>
+
+ <nasal>
+  <santa>
+   <file>Aircraft/santa/santa.nas</file>
+  </santa>
+ </nasal>
+
+ <tmp>
+  <walk type="double">0</walk>
+ </tmp>
+
+</PropertyList>
