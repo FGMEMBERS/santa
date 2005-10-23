@@ -23,6 +23,10 @@ October 23 2001 John Check, fgpanels@rockfish.net
    <path>Aircraft/santa/raindeer-sound.xml</path>
   </sound>
 
+  <startup>
+   <season>winter</season>
+  </startup>
+
   <submodels>
    <serviceable type="bool">1</serviceable>
    <path>Aircraft/santa/raindeer-submodels.xml</path>
