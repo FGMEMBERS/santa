@@ -20,7 +20,7 @@ October 23 2001 John Check, fgpanels@rockfish.net
 
   <sound>
    <audible>true</audible>
-   <path>Aircraft/santa/raindeer-sound.xml</path>
+   <path>Aircraft/santa/reindeer-sound.xml</path>
   </sound>
 
   <startup>
@@ -29,7 +29,7 @@ October 23 2001 John Check, fgpanels@rockfish.net
 
   <submodels>
    <serviceable type="bool">1</serviceable>
-   <path>Aircraft/santa/raindeer-submodels.xml</path>
+   <path>Aircraft/santa/reindeer-submodels.xml</path>
   </submodels>
 
   <panel>

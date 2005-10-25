@@ -8,7 +8,7 @@
   <engine>
    <name>engine</name>
    <mode>looped</mode>
-   <path>Aircraft/ufo/raindeer.wav</path>
+   <path>Aircraft/santa/reindeer.wav</path>
    <property>/velocities/airspeed-kt</property>
    <pitch>
     <property>/velocities/airspeed-kt</property>
