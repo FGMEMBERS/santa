@@ -4,7 +4,6 @@
 
  <fx>
  
-<!--
   <engine>
    <name>engine</name>
    <mode>looped</mode>
@@ -16,7 +15,6 @@
     <offset>3.0</offset>
    </pitch>
   </engine>
--->
 
   <wind>
    <name>wind</name>
