@@ -4,6 +4,27 @@
 
   <path>santa.ac</path>
 
+  <!-- star effects -->
+ <model>
+  <name>stardust</name>
+  <path>Aircraft/santa/Models/Effects/stardust.xml</path>
+  <offsets>
+   <x-m>4.6</x-m>
+   <y-m>0.5</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <name>stardust</name>
+  <path>Aircraft/santa/Models/Effects/stardust.xml</path>
+  <offsets>
+   <x-m>4.6</x-m>
+   <y-m>-0.5</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model>
+
 <!-- Raindeer 1, right and front -->
   <animation>
    <type>rotate</type>
