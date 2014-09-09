@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <sim>
+
+  <description>Santa Claus (3d cockpit)</description>
+ 
+  <flight-model>ufo</flight-model>
+
+  <sound>
+   <audible>true</audible>
+   <path>Aircraft/santa/reindeer-sound.xml</path>
+  </sound>
+
+  <startup>
+   <season>winter</season>
+   <splash-texture>Aircraft/santa/splash.png</splash-texture>
+  </startup>
+
+  <submodels>
+   <serviceable type="bool">1</serviceable>
+   <path>Aircraft/santa/reindeer-submodels.xml</path>
+  </submodels>
+
+  <panel>
+   <visibility>false</visibility>
+  </panel>
+
+  <model>
+   <path>Aircraft/santa/Models/santa.xml</path>
+  </model>
+
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+
+  <chase-distance-m type="double" archive="y">-25.0</chase-distance-m>
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <y-offset-m archive="y">2.07</y-offset-m>
+   </config>
+  </view>
+ </sim>
+
+ <ai>
+  <submodels>
+   <flare-release>true</flare-release>
+  </submodels>
+ </ai>
+
+ <nasal>
+  <santa>
+   <file>Aircraft/santa/santa.nas</file>
+  </santa>
+ </nasal>
+
+ <tmp>
+  <walk type="double">0</walk>
+ </tmp>
+
+</PropertyList>
