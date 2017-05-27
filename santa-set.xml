@@ -4,6 +4,9 @@
  <sim>
 
   <description>Santa Claus (3d cockpit)</description>
+  <tags>
+    <tag>fictional</tag>
+  </tags>
  
   <flight-model>ufo</flight-model>
 
